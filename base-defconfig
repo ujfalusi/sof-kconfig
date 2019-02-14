@@ -1,4 +1,12 @@
 CONFIG_EXPERT=y
+CONFIG_DYNAMIC_DEBUG=y
+
+# EFI
+CONFIG_EFI_STUB=y
+CONFIG_EFI_MIXED=y
+
+# DEVMEM - disable strict for debug - don't use for distros!!
+CONFIG_STRICT_DEVMEM=n
 
 # NVME required on KBL NUC
 CONFIG_NVME_CORE=y
