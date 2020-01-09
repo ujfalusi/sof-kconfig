@@ -1,6 +1,6 @@
 CONFIG_SND_HDA_INTEL=m
 
-# enable HDaudio in SOF. this might be redundant with sof-mach-driver-defconfig
+# enable HDaudio in SOF. this might be redundant with mach-driver-defconfig
 CONFIG_SND_SOC_SOF_HDA_LINK=y
 CONFIG_SND_SOC_SOF_HDA_AUDIO_CODEC=y
 
