@@ -1,4 +1,5 @@
 CONFIG_SOUNDWIRE=m
+CONFIG_SOUNDWIRE_INTEL=m
 CONFIG_SND_SOC_SOF_INTEL_SOUNDWIRE_LINK=y
 
 # add codecs so that they are compiled even if no machine
