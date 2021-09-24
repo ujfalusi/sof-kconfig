@@ -12,7 +12,6 @@
 # CONFIG_ARCH_LAYERSCAPE is not set
 # CONFIG_ARCH_LG1K is not set
 # CONFIG_ARCH_HISI is not set
-# CONFIG_ARCH_MEDIATEK is not set
 # CONFIG_ARCH_MESON is not set
 # CONFIG_ARCH_MVEBU is not set
 # CONFIG_ARCH_QCOM is not set
