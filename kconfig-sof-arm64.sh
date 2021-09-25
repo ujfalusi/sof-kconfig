@@ -6,7 +6,7 @@ echo $KCONFIG_DIR
 
 make defconfig ARCH=arm64
 $COMMAND -m .config \
-	 $KCONFIG_DIR/nobloat-imx-defconfig \
+	 $KCONFIG_DIR/arm64-nobloat-defconfig \
 	 $KCONFIG_DIR/sof-defconfig  \
 	 $KCONFIG_DIR/sof-dev-defconfig \
 	 $@
