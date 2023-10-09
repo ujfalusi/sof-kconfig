@@ -389,3 +389,14 @@ CONFIG_RT2800USB_UNKNOWN=y
 # some systems are locked to X86_X2APIC and can not fall back to the
 #  legacy APIC modes if SGX or TDX are enabled in the BIOS
 CONFIG_X86_X2APIC=y
+
+# Stuff needed for me
+CONFIG_LOCALVERSION_AUTO=n
+CONFIG_NET_SCH_CODEL=m
+CONFIG_NET_SCH_FQ_CODEL=m
+CONFIG_NET_SCH_FQ=m
+CONFIG_I2C_HID=y
+CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM=n
+CONFIG_FONTS=y
+CONFIG_LOGO=y
+
