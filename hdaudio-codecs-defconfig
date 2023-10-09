@@ -4,8 +4,8 @@ CONFIG_SND_HDA_INTEL=m
 CONFIG_SND_SOC_SOF_HDA_LINK=y
 CONFIG_SND_SOC_SOF_HDA_AUDIO_CODEC=y
 
-# enable silent stream (aka Keep-Alive) for HDMI codec
-CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM=y
+# Do not enable silent stream (aka Keep-Alive) for HDMI codec
+CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM=n
 
 # machine driver for HDaudio support
 CONFIG_SND_SOC_INTEL_SKL_HDA_DSP_GENERIC_MACH=m
