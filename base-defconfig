@@ -77,6 +77,9 @@ CONFIG_FB=y
 CONFIG_FRAMEBUFFER_CONSOLE=y
 # add support for using the EFI framebuffer as console
 CONFIG_FB_EFI=y
+# FB emulation appears to be needed for HDMI audio (!) support and
+# it is not enabled default since 6.7.0-rc1
+CONFIG_DRM_FBDEV_EMULATION=y
 
 # sudo modprobe configs && zgrep SOF_DEBUG /proc/config.gz
 CONFIG_IKCONFIG=m
