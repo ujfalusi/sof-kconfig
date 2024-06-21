@@ -22,4 +22,5 @@ $COMMAND .config \
 	 "$KCONFIG_DIR"/soundwire-defconfig \
 	 "$KCONFIG_DIR"/soundwire-codecs-defconfig \
 	 "$KCONFIG_DIR"/bpf-defconfig \
+	 "$KCONFIG_DIR"/debug-info-defconfig \
 	 "$@"
